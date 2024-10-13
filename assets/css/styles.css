@@ -341,7 +341,28 @@ img {
   cursor: pointer;
   margin-left: auto;
 }
+.contact_container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 100%;            /* Ajusta a altura conforme necessário */
+}
 
+.contact__social {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 100%;            /* Ajusta a altura conforme necessário */
+  gap: 15px;               /* Espaçamento entre os ícones */
+}
+
+.contact__social-icon {
+  font-size: 24px; /* Tamanho dos ícones */
+  color: #000;     /* Cor dos ícones */
+}
+.contact__social-icon:hover {
+  color: var(--first-color);
+}
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
